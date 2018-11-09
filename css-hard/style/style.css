@@ -1,0 +1,83 @@
+*{
+scroll-behavior: smooth;
+}
+
+body{
+	margin: 15px;
+	padding: 0;
+	box-sizing: border-box;
+	background-image: url(https://images.unsplash.com/photo-1521449256184-170b4a4c437c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=db2fb9dc4a09793aaab44e20e34c8e49&auto=format&fit=crop&w=1498&q=80);
+	background-size: 100% auto;
+	background-attachment: fixed;
+	font-family: 'Arsenal', sans-serif;
+	color: black;
+}
+h1{
+	font-family: 'Amatic SC', cursive;
+	margin: 20px 50px;
+	font-size: 50px;
+	color: whitesmoke;
+}
+.story{
+	color: gainsboro;
+	background-color: rgba(16, 137, 177, 0.1);
+	margin: 20px;
+	padding: 5px;
+	font-family: 'Neucha', cursive;
+}
+.plan{
+	margin: 5px 100px;
+	font-family: 'Montserrat Alternates', sans-serif;
+	color: #333;
+	font-size: 25px;
+	text-decoration: underline;
+}
+h2{
+	margin: 5px 100px;
+	font-family: 'Montserrat Alternates', sans-serif;
+	color: #333;
+	text-align: center;
+	background-color: whitesmoke;
+	border-radius: 50px;
+	
+}
+ul{
+	margin: 10px 50px;
+}
+li{
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+a{
+	color: black;
+	padding: 15px;
+	text-decoration: none;
+	transition: .5s;
+}
+a:hover{
+	background-color: dodgerblue;
+	color: white;
+	opacity: .8;
+}
+img{
+	border: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
