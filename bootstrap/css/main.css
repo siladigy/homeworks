@@ -1,0 +1,19 @@
+.row{
+	text-align: center;
+}
+span{
+	font-family: Tahoma;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+header{
+	margin-top: 70px;
+	margin-bottom: 80px;
+}
+.element__img{
+	min-height: 80px;
+}
+.element{
+	margin-bottom: 15px;
+}
