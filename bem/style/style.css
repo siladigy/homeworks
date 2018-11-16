@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f3f3f3;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.header__title {
+  margin-top: 32px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.header__subtitle {
+  margin-top: 9px;
+  font-size: 19px;
+  font-weight: 300;
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-display: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 46px;
+  margin-bottom: 50px;
+}
+
+.section__block {
+  text-align: center;
+  max-width: 315px;
+  background-color: #fff;
+  margin: 0 12px;
+}
+
+.section__block-title {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #25333c;
+  padding: 24px;
+}
+
+.section__block-img {
+  margin-top: 5px;
+  min-height: 65px;
+}
+
+.section__block-descr {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 23px;
+}
+
+.section__block-price {
+  color: #e93b3b;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 30px;
+}
+
+.section__block-form {
+  margin-top: 17px;
+}
+
+.section__block-button {
+  margin-top: 17px;
+}
+
+.section__block-subscr {
+  margin-top: 15px;
+  margin-bottom: 22px;
+  font-size: 13px;
+  font-weight: 300;
+  color: #616467;
+}
+
+input {
+  width: 260px;
+  height: 51px;
+  border: 1px solid #c1c4c7;
+  color: #616467;
+  background-color: #ffffff;
+  margin: 3px;
+  padding: 0 0 0 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 22px 33px;
+  border: none;
+  background-color: #e93b3b;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:focus {
+  outline: none;
+}
+/*# sourceMappingURL=style.css.map */
