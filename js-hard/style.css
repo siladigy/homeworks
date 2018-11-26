@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.section {
+  display: block;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.section__age {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section__age-text {
+  margin-right: 20px;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.section__button {
+  margin-top: 50px;
+}
+
+.section__subscription {
+  margin-top: 30px;
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section__subscription-text {
+  margin-right: 20px;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.section__subscription-btn {
+  margin-top: 50px;
+  display: none;
+}
+
+input {
+  padding: 15px;
+  max-width: 70px;
+  font-size: 15px;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  padding: 15px;
+  margin-right: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 15px;
+  background-color: transparent;
+  border: 2px solid green;
+  border-radius: 50px;
+  -webkit-transition: .4s;
+  transition: .4s;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: green;
+  color: #fff;
+}
+
+button:focus {
+  outline: none;
+}
+
+p {
+  font-size: 50px;
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
